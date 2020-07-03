@@ -1,4 +1,4 @@
-package mt.hw.executor_service;
+package mt.hw.executorservice;
 
 import java.util.List;
 import java.util.concurrent.Callable;

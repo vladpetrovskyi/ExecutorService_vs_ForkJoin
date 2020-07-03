@@ -1,4 +1,4 @@
-package mt.hw.fork_join;
+package mt.hw.forkjoin;
 
 import java.util.List;
 import java.util.concurrent.ForkJoinPool;

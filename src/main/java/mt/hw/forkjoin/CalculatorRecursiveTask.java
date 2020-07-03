@@ -1,4 +1,4 @@
-package mt.hw.fork_join;
+package mt.hw.forkjoin;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -7,9 +7,8 @@ import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.RecursiveTask;
 
 public class CalculatorRecursiveTask extends RecursiveTask<Long> {
-    private final List<Integer> intList;
-
     private static int threshold;
+    private final List<Integer> intList;
 
     public CalculatorRecursiveTask(List<Integer> intList, int threadsNumber) {
         this.intList = intList;

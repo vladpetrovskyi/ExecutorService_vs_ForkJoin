@@ -2,8 +2,8 @@ package mt.hw;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-import mt.hw.executor_service.ExecutorServiceCalculator;
-import mt.hw.fork_join.ForkJoinCalculator;
+import mt.hw.executorservice.ExecutorServiceCalculator;
+import mt.hw.forkjoin.ForkJoinCalculator;
 
 public class Main {
 
