@@ -26,9 +26,8 @@ public class CalculatorRecursiveTask extends RecursiveTask<Long> {
                     .stream()
                     .mapToLong(ForkJoinTask::join)
                     .sum();
-        } else {
-            return processing(intList);
         }
+        return processing(intList);
     }
 
     private Collection<CalculatorRecursiveTask> createSubtasks() {
